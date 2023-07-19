@@ -8,7 +8,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-:root { 
+:root {
     --font-size: 16px;
 }
 
@@ -139,14 +139,14 @@ nav {
     background-size: 48%; */
     gap: 20px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.066);
-    
-    
+
+
 
 }
 
 
 .banner-text {
-   padding-top: 200px;
+    padding-top: 200px;
     width: 60%;
     text-align: center;
     background-image: url("../images/banner-text-img.png");
@@ -157,7 +157,7 @@ nav {
     /* background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
 
 
-    
+
 
 }
 
@@ -165,10 +165,10 @@ nav {
 .banner-img {
 
     width: 50%;
-    
+
 }
 
-.banner-img img{
+.banner-img img {
     width: 100%;
     height: 100%;
 }
@@ -181,7 +181,7 @@ nav {
 }
 
 .banner-text h2 {
-    
+
     font-size: 5rem;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -205,8 +205,8 @@ nav {
     list-style: none;
     width: 54%;
     margin: auto;
-    
-    
+
+
 }
 
 .banner-btn1 {
@@ -218,45 +218,48 @@ nav {
     padding: 21px 40px;
     margin: 5px;
     border: 0px;
-    
+
 }
 
-.btn2{
+.btn2 {
     background: #4EC5F7;
 }
 
 
 
 /* funny videos styles starts here */
-.video-container{
+.video-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     max-width: 80%;
-    margin:50px auto 0 ;
+    margin: 50px auto 0;
     min-height: 400px;
 
 }
 
-.video-container img{
-    width:100%;
+.video-container img {
+    width: 100%;
 }
 
-.video-container p{
+.video-container p {
     font-size: 1rem;
 }
 
-.video1{
+.video1 {
     width: 30%;
-   
+
 }
-.video2{
-    width: 30%;
-}
-.video3{
+
+.video2 {
     width: 30%;
 }
-.video4{
+
+.video3 {
+    width: 30%;
+}
+
+.video4 {
     width: 30%;
 }
 
@@ -264,7 +267,7 @@ nav {
 
 /* play instantly starts here */
 
-.play-instantly-container{
+.play-instantly-container {
     max-width: 70%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -276,22 +279,23 @@ nav {
     text-align: left;
     gap: 50px;
     position: relative;
-    
+
 }
 
-.play-text{
-    width: 40%; 
+.play-text {
+    width: 40%;
     color: #0B0223;
     font-weight: 700;
     font-size: 2rem;
-    
+
 }
-.play-text p{
+
+.play-text p {
     font-size: 1.125rem;
     margin: 10px 0px;
 }
 
-.play-img{
+.play-img {
 
     width: 50%;
     height: 60%;
@@ -299,26 +303,26 @@ nav {
 
 }
 
-.play-img img{
+.play-img img {
     width: 100%;
     height: 100%;
 }
 
-.play-img2{
+.play-img2 {
     width: 45%;
     position: relative;
     bottom: 80px;
     right: 60px;
-    
+
 }
 
-.play-img2 img{
+.play-img2 img {
     width: 100%;
 }
 
-.play-instantly-container2{
+.play-instantly-container2 {
     max-width: 80%;
-   margin: 0 auto;
+    margin: 0 auto;
     min-height: 300px;
     display: flex;
     flex-direction: row-reverse;
@@ -327,48 +331,96 @@ nav {
     text-align: left;
     gap: 50px;
     position: relative;
-    
+
 }
 
-.play-text1{
-    width: 40%; 
+.play-text1 {
+    width: 40%;
     color: #0B0223;
     font-weight: 700;
     font-size: 2rem;
-    
+
 }
 
-.play-text1 p{
+.play-text1 p {
     font-size: 1.125rem;
     margin: 10px 0px;
 }
 
-.play-img{
+.play-img {
     width: 50%;
     height: 60%;
 
 
 }
 
-.play-img img{
+.play-img img {
     width: 100%;
     height: 100%;
 }
 
-.play-img2{
+.play-img4 {
     width: 45%;
     position: relative;
     bottom: 80px;
-    right: 60px;
-    
+    left: 400px;
+
 }
 
-.play-img2 img{
+.play-img2 img {
     width: 100%;
 }
 
+/* play instantly finishes here */
+
+
+
+/* Games button starts here */
+.button-container {
+
+    border: 2px solid red;
+    max-width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.button-row-1 {
+    border: 2px solid yellow;
+    display: flex;
+     justify-content: space-evenly;
+    
+
+}
+
+.button-container button {
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 5px 10px 5px;
+    border: 0px;
+    margin: 5px;
+    text-align: center;
+
+}
 
 
 
 
+.button-row-2 {
+    border: 3px solid black;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2px;
+}
 
+
+.button-container button:hover{
+    border: 2px solid #FF42A5 ;
+    border-radius: 50px;
+}
