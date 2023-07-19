@@ -47,7 +47,7 @@
       }
 
     .banner-para ul{
-        width: auto;
+        width: 84%;
     }
 
     .video-container{
@@ -77,6 +77,10 @@
     .play-text {
         margin-top: 20px;
         width: 100%;
+    }
+
+    .play-text h1 , .play-text1 h1{
+        text-shadow: 2px 2px 2px #F948B2;
     }
 
     .play-img{
