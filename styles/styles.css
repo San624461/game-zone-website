@@ -378,7 +378,6 @@ nav {
 /* Games button starts here */
 .button-container {
 
-    border: 2px solid red;
     max-width: 80%;
     min-height: 300px;
     margin: 0 auto;
@@ -387,9 +386,10 @@ nav {
 }
 
 .button-row-1 {
-    border: 2px solid yellow;
     display: flex;
-     justify-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     
 
 }
@@ -411,16 +411,29 @@ nav {
 
 
 .button-row-2 {
-    border: 3px solid black;
     display: flex;
-    display: flex;
+
     justify-content: space-evenly;
     align-items: center;
     gap: 2px;
+    flex-wrap: wrap;
 }
 
 
-.button-container button:hover{
+.button-container .btn:hover{
     border: 2px solid #FF42A5 ;
     border-radius: 50px;
 }
+
+.button-container .btn{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+/* games button finishes here */
+
+
+/* footer starts here */
+
+/* footer finishes here */

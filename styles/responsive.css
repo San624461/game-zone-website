@@ -93,7 +93,31 @@
        
 
 
-   
+   .button-container{
+    max-width: 100%;
+   }
+
+
+
+    .button-row-1{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+      gap: 5px;
+        
+    }
+    .button-row-2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        
+    }
+
+    .btn5{
+        display:none;
+    }
 
 
 
@@ -101,7 +125,6 @@
 
 
 
-}
 
 
 
