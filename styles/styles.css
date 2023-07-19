@@ -310,6 +310,7 @@ nav {
     width: 30%;
     position: relative;
     display: inline-block;
+    border: 0px;
 }
 
 .video3 img {
