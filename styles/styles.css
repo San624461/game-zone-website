@@ -643,9 +643,10 @@ nav {
 .button-container {
 
     max-width: 80%;
-    min-height: 300px;
+    min-height: 200px;
     margin: 0 auto;
     text-align: center;
+    background-origin: 2px solid red;
 
 }
 
@@ -654,6 +655,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    border: 2px solid blue;
 
 
 }
@@ -676,11 +678,12 @@ nav {
 
 .button-row-2 {
     display: flex;
-
+    border: 2px solid red;
     justify-content: space-evenly;
     align-items: center;
     gap: 2px;
     flex-wrap: wrap;
+
 }
 
 
