@@ -546,7 +546,7 @@ nav {
 
 /* career starts here */
 .career-container {
-    max-width: 1440px;
+    width: 100%;
     min-height: 300px;
     margin: 60px auto;
     display: flex;
